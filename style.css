@@ -58,3 +58,10 @@ margin-top: 90px;
     background-color: white;
     border-top: none;
 }
+/* footer */
+.footer{
+    margin-top: 90px;
+    background-color: #FCE7E8;
+    height: 300px;
+    border-radius: 5px;
+}
