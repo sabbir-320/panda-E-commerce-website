@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light container">
         <a class="navbar-brand" href="#">
             <img src="logo.png" alt="">
@@ -29,48 +30,46 @@
         </div>
     </nav>
 
-    <section class="container">
+    <!-- slide show section -->
+    <section class="container slide-show">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
+                <div class="carousel-item active ">
+                    <div class="row align-items-center">
                         <div class="col-md-7">
                             <h1>Mi LED TV 4A PRO 32</h1>
                             This is number one LED TV in the world. You can spend your time with your favorite TV.
-                            <h1>$1200</h1>
-                            <button>Buy</button>
+                            <h1 class="price">$1200</h1>
+                            <button class="buy-button">Buy Now</button>
                         </div>
-                        <div class="col-md-5"><img src="banner-images/tv.png" class="d-block w-100" alt="..."></div>
+                        <div class="col-md-5"><img src="banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
                     </div>
                 </div>
-
-
-
-
-
-
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            This is number one LED TV in the world. You can spend your time with your favorite TV.
+                            <h1 class="price">$1200</h1>
+                            <button class="buy-button">Buy Now</button>
+                        </div>
                         <div class="col-md-5"> <img src="banner-images/headphone.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
-
-
-
-
-
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            This is number one LED TV in the world. You can spend your time with your favorite TV.
+                            <h1 class="price">$1200</h1>
+                            <button class="buy-button">Buy Now</button>
+                        </div>
                         <div class="col-md-5"> <img src="banner-images/xbox.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -81,6 +80,108 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </section>
+
+    <!-- categories section -->
+    <section class="container categories">
+        <h2>Categories</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="cat-1 d-flex align-items-center justify-content-between">
+                    <h1>Bagpack</h1>
+                    <img src="categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cat-2 d-flex align-items-center justify-content-between">
+                    <h1>Watch</h1>
+                    <img src="categories/watch.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cat-3 d-flex align-items-center justify-content-between">
+                    <h1>Shoes</h1>
+                    <img src="categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- shoes section -->
+    <section class="container shoes-section" id="Shoes">
+        <h2>Shoes</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Supply 350</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
+                    <h5 class="card-title">$120</h5>
+                    <button class="buy-button">Buy Now >></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nike 360</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <h5 class="card-title">$220</h5>
+                    <button class="buy-button">Buy Now >></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Red Airmax</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <h5 class="card-title">$320</h5>
+                    <button class="buy-button">Buy Now >></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Backpack section -->
+    <section class="container backpack-section" id="Backpack">
+        <h2>Backpack</h2>
+        <div class="card-deck">
+            <div class="card">
+              <img src="bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Laltu Bag</h5>
+                <h5 class="card-title">$120</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="buy-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Blue Niltu Bag</h5>
+                <h5 class="card-title">$220</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <button class="buy-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Kaltu Bag</h5>
+                <h5 class="card-title">$320</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <button class="buy-button">Buy Now >></button>
+              </div>
+            </div>
+          </div>
     </section>
 
 
