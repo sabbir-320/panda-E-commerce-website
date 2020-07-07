@@ -58,10 +58,18 @@ margin-top: 90px;
     background-color: white;
     border-top: none;
 }
-/* footer */
-.footer{
+/* contact-section */
+.contact-section{
     margin-top: 90px;
     background-color: #FCE7E8;
     height: 300px;
     border-radius: 5px;
+}
+.contact-section{
+    color: gray;
+}
+/* footer */
+footer{
+    margin-top: 90px;
+    text-align: center;
 }
